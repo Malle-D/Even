@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Evet</title>
+</head>
+
+<style>
+   *{
+      box-sizing: border-box;
+   }
+   .form{
+      width: 250px;
+      padding-top: 100px;
+      margin: 0px auto;
+      text-align: center;
+   }
+   .form__input{
+      display: block;
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 50px;
+      border-radius: 10px;
+      font-size: 22px;
+      text-align: center;
+   }
+   .btn{
+      margin: 0px auto;
+      display: block;
+      font-size: 16px;
+      padding: 12px 10px;
+      border-radius: 10px;
+      background-color: #0d6efd;
+      color: #fff;
+      border: none;
+      width: 150px;
+      margin-bottom: 50px;
+   }
+   .btn:hover{
+      opacity: 0.8;
+   }
+   .even , .uneven{
+      text-align: center;
+      margin-bottom: 24px;
+      font-size: 24px;
+      display: block;
+   }
+</style>
+
+<body>
+   
+   <form method="post" class="form">
+      
+      <label>
+         <input type="text" class="form__input" required>
+      </label>
+      
+      <button class="btn" type="submit">
+         Add Number
+      </button>
+      
+      
+   </form>
+   
+   <output class="even">
+     
+   </output>
+   <output class="uneven">
+
+   </output>
+   
+   <script src="./js/scripts.js"></script>
+</body>
+</html>
